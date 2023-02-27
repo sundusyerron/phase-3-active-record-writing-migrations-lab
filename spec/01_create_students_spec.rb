@@ -14,3 +14,4 @@ describe CreateStudents do
     expect(Student.where(name: "Steven").first).to eq(student)
   end
 end
+
